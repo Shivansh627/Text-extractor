@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCC Imag to Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form onsubmit="submission(event)">
+            <label for="file">Upload your Image</label>
+            <p class="instruction">Please upload image from which you wants to extract text</p>
+            <input type="file" id="fileInput" required>
+            <button type="submit">Extract Text</button>
+        </form>
+        <div class="result">
+            <p class="text"></p>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>

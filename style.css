@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.instruction {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+input[type="file"]:hover {
+    background-color: #828ceb;
+}
+
+
+button {
+    background-color: #4ca3af;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: #828ceb;
+}
+
+.result {
+    margin-top: 30px;
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Add some styles for responsiveness */
+@media (max-width: 768px) {
+    .main {
+        margin: 20px;
+    }
+}
